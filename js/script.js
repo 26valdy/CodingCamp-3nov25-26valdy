@@ -5,7 +5,7 @@ function welcomeMessege () {
 
     if (name != null) {
 
-        document.getElementById("msg").innerHTML = "Hii " + name + ", Welcome To Rivaer Diecast!"; "
+        document.getElementById("msg").innerHTML = "Hii " + name + ", Welcome To Rivaer Diecast!";
     }
    
 }
@@ -22,4 +22,5 @@ function welcomeMessege () {
     `;
 
   
+
 };
