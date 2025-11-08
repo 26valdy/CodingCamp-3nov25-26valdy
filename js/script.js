@@ -1,16 +1,25 @@
-/// Display a welcome message when the page loads
-welcomeMessage();
+welcomeMessege ();
 
-function welcomeMessage() {
-    /// Prompt the user for their name
-    let name = prompt("Please enter your name:");
+function welcomeMessege () {
+    let name = prompt("please masukan nama kamu:")
 
     if (name != null) {
 
-        /// Set the welcome message
-        document.getElementById('welcome-speech').innerHTML = 'Hello ' + name + ', welcome to Yama Company!';
+        document.getElementById("msg").innerHTML = "Hii " + name + ", Welcome To Rivaer Diecast!"; "
     }
+   
 }
+ function validasiData() {
+     event.preventDefault();
+    const name = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
 
-/// Validate the contact form
-function validateForm() { }
+    output.innerHTML = `
+        <p><strong>Email :</strong> ${email}</p>
+        <p><strong>Nama :</strong> ${name}</p>
+        <p><strong>Pesan :</strong> ${message}</p>
+    `;
+
+  
+};

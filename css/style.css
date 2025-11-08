@@ -1,14 +1,13 @@
-.logo {
+.logo-icon {
+    background-color: grey;
     height: 75px;
     width: 75px;
-    background-color: darkgray;
     border-radius: 50%;
-    background-image: url(https://picsum.photos/200);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Indonesia_%28physical_version%29.svg/1024px-Flag_of_Indonesia_%28physical_version%29.svg.png);
     background-size: cover;
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
